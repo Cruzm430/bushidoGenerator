@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Bushido 7077";
+const description = "In the year 7077, thousands of years after the glacial basin collapsed, evolution looms into a new era where hybrid species dominated the face of the Earth. Alpha Zero was appointed as the supreme authority and has absolute power over the land.As the droids rise into a position of political strength, their insatiable thirst and greed to wield even greater power forced the cyborgs to turn against the confederation.Jin, a cyborg from the forsaken clan of Yurei, leads the revolt against the ruling class.";
+const baseUri = "ipfs://QmX1rWmYRNua7jpV5cQwkAzATu8Z7d5cyCCZUrUDVaaCoc";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -24,26 +24,68 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 81,
+    layersOrder: [
+      { name: "Bushido" },
+    ],
+  },
+  {
+    growEditionSizeTo: 565,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Weapon" },
+      { name: "Female Head" },
+      { name: "Female Body" },
+      { name: "Drones"}
+    ],
+  },
+  {
+    growEditionSizeTo: 4565,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Weapon" },
+      { name: "Female Head" },
+      { name: "Female Body" },
+    ],
+  },
+  {
+    growEditionSizeTo: 4591,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Weapon" },
+      { name: "Male Body" },
+    ],
+  },
+  {
+    growEditionSizeTo: 5071,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Weapon" },
+      { name: "Eyes"},
+      { name: "Male Armor"},
+      { name: "Male Heads" },
+      { name: "Drones"},
+    ],
+  },
+  {
+    growEditionSizeTo: 7777,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Weapon" },
+      { name: "Eyes"},
+      { name: "Male Armor"},
+      { name: "Male Heads" },
     ],
   },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
-const debugLogs = false;
+const debugLogs = true;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2160,
+  height: 2160,
   smoothing: false,
 };
 
@@ -78,7 +120,7 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {website:'bushidonft.io'};
 
 const rarityDelimiter = "#";
 

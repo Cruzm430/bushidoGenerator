@@ -1,0 +1,31 @@
+{
+  "name": "Bushido 7077 #6509",
+  "description": "In the year 7077, thousands of years after the glacial basin collapsed, evolution looms into a new era where hybrid species dominated the face of the Earth. Alpha Zero was appointed as the supreme authority and has absolute power over the land.As the droids rise into a position of political strength, their insatiable thirst and greed to wield even greater power forced the cyborgs to turn against the confederation.Jin, a cyborg from the forsaken clan of Yurei, leads the revolt against the ruling class.",
+  "image": "ipfs://QmTjfZ6przaKPU529ZDUaDdCwokPAtcrkZYDBrdU7epgfS/6509.png",
+  "dna": "bf99f391b8e2c4fb525e2eb6c0615be2ce5f5b0a",
+  "edition": 6509,
+  "date": 1639564451035,
+  "website": "bushidonft.io",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Shaider"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Human"
+    },
+    {
+      "trait_type": "Male Armor",
+      "value": "Slasher"
+    },
+    {
+      "trait_type": "Male Heads",
+      "value": "Endeavor"
+    }
+  ]
+}
